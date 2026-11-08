@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informació de l'usuari"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nom de l'usuari"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cognoms"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvApellidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cognoms de l'usuari"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvEdad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Edat de l'usuari"
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Matriculat"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvMatriculado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sí o No"
+            android:textSize="18sp"
+            android:layout_marginBottom="24dp" />
+
+        <CheckBox
+            android:id="@+id/cbPolitica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Accepto la política de privacitat" />
+
+        <Button
+            android:id="@+id/btnSalir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sortir"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
